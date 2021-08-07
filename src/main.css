@@ -1,0 +1,11 @@
+img.lsf-filter-icon-rm {
+    height: 14px;
+    width: 14px;
+    display: inline;
+
+    margin-right: 2px;
+}
+
+.lsf-filter-hidden {
+    display: none !important;
+}

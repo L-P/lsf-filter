@@ -1,6 +1,9 @@
 {
     "content_scripts": [
         {
+            "css": [
+                "src/main.css"
+            ],
             "js": [
                 "src/main.js"
             ],
@@ -9,12 +12,18 @@
             ]
         }
     ],
-    "description": "Filter streamers or keywords out from LIVESTREAMFAILS.",
+    "description": "Filter streamers from LIVESTREAMFAILS.",
     "icons": {
         "48": "icon.svg",
         "96": "icon.svg"
     },
     "manifest_version": 2,
     "name": "LSF Filter",
-    "version": "0.0.1"
+    "permissions": [
+        "storage"
+    ],
+    "version": "0.0.1",
+    "web_accessible_resources": [
+        "icon-rm.svg"
+    ]
 }
