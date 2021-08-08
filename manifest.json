@@ -12,7 +12,7 @@
             ]
         }
     ],
-    "description": "Filter streamers from LIVESTREAMFAILS.",
+    "description": "Hide streamers from livestreamfails, keep the drama out.",
     "icons": {
         "48": "icon.svg",
         "96": "icon.svg"
